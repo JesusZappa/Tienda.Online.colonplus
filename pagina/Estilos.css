@@ -1,12 +1,12 @@
 body {
   font-family: sans-serif;
-  background-color: #ffffff;
+  background-color: #cae7c3;
   padding: 20px;
 }
 
 header {
   text-align: center;
-  background-color: #000000;
+  background-color: #4d8342;
   padding: 20px;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 .precios {
-  background-color: #ffffff;
+  background-color: #d3cb62;
   padding: 20px;
   border-radius: 5px;
   color: #000000;
@@ -52,11 +52,11 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #008CBA;
+  background-color: #ba3500;
 }
 
 .btn-secondary {
-  background-color: #000000;
+  background-color: #3a7e2a;
 }
 
 img {
@@ -136,10 +136,11 @@ h1 {
 
 .text-danger {
   color: #ff0000;
+  margin-top: none
 }
 
 .btn {
-  background-color: #008CBA;
+  background-color: #c24b4b;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
@@ -148,11 +149,11 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #008CBA;
+  background-color: #c24b4b;
 }
 
 .btn-secondary {
-  background-color: #000000;
+  background-color: #307c0d;
 }
 
 img {
