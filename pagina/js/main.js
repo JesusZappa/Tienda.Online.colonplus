@@ -12,9 +12,7 @@
     spinner();
     
     
-    // Initiate the wowjs
-    new WOW().init();
-
+   
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -79,17 +77,6 @@
         countDownTimer();
     }, 1000);
 
-
-    // Testimonials carousel
-    $('.testimonial-carousel').owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: false,
-        dots: true,
-        items: 1,
-        dotsData: true,
-    });
     
 })(jQuery);
 

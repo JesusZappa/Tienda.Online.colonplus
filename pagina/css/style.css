@@ -1,6 +1,93 @@
-/********** Template CSS **********/
-/*** Spinner ***/
+
+/*starting boostrap settings */
+
+/*nav*/
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	color:  #037212;
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link.active {
+	color: #037212!important;
+}
+
+/*background */
+.bg-primary {
+  background-color: #abcf98 !important;
+}
+/* buttons primary settings*/
+.btn-primary {
+
+  background-color: #037212;
+  border-color: #037212;
+ 
+
+}
+.btn-outline-dark {
+	background-color: #037212!important;
+  border-color: #037212!important;
+  color: aliceblue !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #5c9063!important;
+  border-color: #5c9063!important;
+}
+/*text settings*/
+.text-primary {
+  
+  color: #6f9974 !important;
+
+}
+.text-dark{
+
+  color: #163d00 !important;
+
+}
+
+a {
+	color: #037212;
+	text-decoration: underline;
+}
+ 
+a:hover {
+	color:  #023609;
+}
+/* buttons settings body */
+.btn-outline-primary {
+	background-color: #037212!important;
+  border-color: #037212!important;
+  color: aliceblue !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #5c9063!important;
+  border-color: #5c9063!important;
+
+
+}
+.btn-primary:hover {
+  background-color: #5c9063;
+  border-color: #5c9063;
+
+}
+
+/*Footer settings c*/
+
+.footer .copyright a {
+	color: #037212!important;
+}
+
+.footer .btn.btn-link:hover {
+	color:  #037212!important;
+}
+
+/*end of boostrap settings*/
 #spinner {
+   color: #037212;
     opacity: 0;
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
@@ -427,3 +514,4 @@ img.animated.pulse {
     padding-right: 0;
     border-right: none;
 }
+
